@@ -1,6 +1,6 @@
 import requests
 
-api_key = "2c0f46ee4a72ff2e0da09221e5cbcac1"
+api_key = "your key"
 lat = 48.856613
 lon = 2.352222
 part = "hourly,daily"
