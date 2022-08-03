@@ -6,8 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
-EMAIL = "tambetejashree02@gmail.com"
-PASSWORD = "sairam02"
+EMAIL = "email"
+PASSWORD = "password"
 
 chrome_driver_path = "C:\Development\chromedriver.exe"
 driver = webdriver.Chrome(chrome_driver_path)
