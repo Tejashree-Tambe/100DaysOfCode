@@ -2,7 +2,7 @@ import os
 from twilio.rest import Client
 import requests
 
-api_key = "2c0f46ee4a72ff2e0da09221e5cbcac1"
+api_key = "your key"
 OWM_endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 weather_params = {
     "lat": 19.075983,
@@ -10,8 +10,8 @@ weather_params = {
     "appid": api_key,
     "exclude": "current,minutely,daily,alerts"
 }
-account_sid = "AC1abdc7ac82c6feba7a86c37f42d6f192"
-auth_token = "71a1122b85cc63c0bc54f63050323cd2"
+account_sid = "acc_sid"
+auth_token = "auth_token"
 
 
 response = requests.get(OWM_endpoint, params=weather_params)
