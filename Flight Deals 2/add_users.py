@@ -1,6 +1,6 @@
 import requests
 
-SHEET_ENDPOINT = "https://api.sheety.co/8da3efc1aab14c7b1e55b116d6f5bdc1/flightDetails/sheet2"
+SHEET_ENDPOINT = ""
 
 print("Welcome to Python Developer Flight Club!\nWe find the best flight deals and email you!")
 
