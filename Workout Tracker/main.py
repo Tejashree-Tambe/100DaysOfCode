@@ -10,11 +10,8 @@ WEIGHT_KG = 45
 HEIGHT_CM = 230
 AGE = 19
 
-# API_ID = "66e0a1f8"
-# API_KEY = "80fae14405fab96bbe92470ea0379c5f"
+
 EXERCISE_API_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
-# SHEET_ENDPOINT = "https://api.sheety.co/ae2cead908ac512c1ce11ae26eb8b478/myWorkouts/sheet1"
-# BEARER_TOKEN = "wuieriy8uryegeryguin"
 
 
 SHEET_ENDPOINT = os.getenv("SHEET ENDPOINT")
@@ -41,7 +38,6 @@ params = {
 response = requests.post(url=EXERCISE_API_ENDPOINT, json=params, headers=headers)
 data = response.json()
 print(response.text)
-# I ran 5 miles and walked 3 miles
 today = datetime.now().strftime("%d/%m/%Y")
 now_time = datetime.now().strftime("%X")
 
