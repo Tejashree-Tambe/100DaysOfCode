@@ -7,8 +7,8 @@ BILLBOARD_URL = "https://www.billboard.com/charts/hot-100/"
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
-        client_id="71b7d5785708452d8cc43c3b3ddf8abd",
-        client_secret="5f1cc7c1531e423d82e2232236eed584",
+        client_id="id",
+        client_secret="secret",
         scope="playlist-modify-private",
         redirect_uri="http://example.com",
         show_dialog=True,
