@@ -63,10 +63,10 @@ driver = webdriver.Chrome(executable_path=chrome_driver_path)
 driver.get("http://secure-retreat-92358.herokuapp.com/")
 
 first_name = driver.find_element_by_name("fName")
-first_name.send_keys("Python")
+first_name.send_keys("randome")
 
 last_name = driver.find_element_by_name("lName")
-last_name.send_keys("Developer")
+last_name.send_keys("hello")
 
 email = driver.find_element_by_name("email")
 email.send_keys("example@gmail.com")
