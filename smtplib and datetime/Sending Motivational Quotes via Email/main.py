@@ -14,8 +14,8 @@ todays_quote = random.choice(data)
 now = dt.datetime.now()
 day_of_week = now.weekday()
 
-my_email = "pythondeveloper0401@gmail.com"
-password = "Python123"
+my_email = "mail"
+password = "password"
 subject = "Today's motivational quote"
 message = f"Hey there!\n\n Today's motivational quote is:\n {todays_quote}"
 
@@ -25,5 +25,5 @@ if day_of_week == 2:
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=my_email,
-            to_addrs="manesheetal102@gmail.com",
+            to_addrs="to",
             msg=f"Subject:{subject}\n\n{message}")
