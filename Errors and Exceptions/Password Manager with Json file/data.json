@@ -1,0 +1,26 @@
+{
+    "Amazon": {
+        "email": "example@gmail.com",
+        "password": "UW+kT+L!+e5t38WtQ"
+    },
+    "Facebook": {
+        "email": "example@gmail.com",
+        "password": "n(+(dkTE#HHF9y3"
+    },
+    "GitHub": {
+        "email": "example@gmail.com",
+        "password": "mM#5*BR)1VGW3!vR"
+    },
+    "Twitter": {
+        "email": "example@gmail.com",
+        "password": "4%kZ0JYn+0n5QA"
+    },
+    "Instagram": {
+        "email": "example@gmail.com",
+        "password": "+MjK5sr54+3JcWk!"
+    },
+    "Telegram": {
+        "email": "example@gmail.com",
+        "password": "D)Oc)6IZB!9*Uj"
+    }
+}
