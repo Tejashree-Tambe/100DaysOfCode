@@ -5,8 +5,8 @@ chrome_driver_path = "C:\Development\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 driver.get("https://www.linkedin.com/jobs/search/?f_AL=true&geoId=102713980&keywords=python%20developer&location=India")
 
-EMAIL_ID = "manesheetal102@gmail.com"
-PASSWORD = "LinkedIN123"
+EMAIL_ID = "email"
+PASSWORD = "password"
 PHONE_NO = "8745232254"
 
 # search_job_type = driver.find_element_by_id("jobs-search-box__text-input jobs-search-box__keyboard-text-input jobs-search-box__ghost-text-input")
