@@ -3,8 +3,8 @@ import random
 import smtplib
 import pandas
 
-MY_EMAIL = "pythondeveloper0401@gmail.com"
-PASSWORD = "Python123"
+MY_EMAIL = "email"
+PASSWORD = "password"
 SUBJECT = "Birthday Wish"
 
 # get today's date
