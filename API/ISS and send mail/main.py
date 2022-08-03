@@ -3,10 +3,10 @@ from datetime import datetime
 import smtplib
 import time
 
-MY_LAT = 51.507351     # Your latitude
-MY_LONG = -0.127758    # Your longitude
-MY_EMAIL = "pythondeveloper0401@gmail.com"
-PASSWORD = "Python123"
+MY_LAT = lat     # Your latitude
+MY_LONG = long    # Your longitude
+MY_EMAIL = "email"
+PASSWORD = "passwrd"
 
 
 def check_if_near():
@@ -20,7 +20,6 @@ def check_if_near():
     print(iss_latitude)
     print(iss_longitude)
 
-    # Your position is within +5 or -5 degrees of the ISS position.
     if MY_LONG - 5 <= iss_longitude <= MY_LONG + 5 and MY_LAT - 5 <= iss_latitude <= (MY_LAT + 5):
         return True
 
@@ -49,10 +48,6 @@ def check_if_night():
     if time_now_hr >= sunset or time_now_hr <= sunrise:
         return True
 
-# If the ISS is close to my current position
-# and it is currently dark
-# Then send me an email to tell me to look up.
-# BONUS: run the code every 60 seconds.
 
 
 while True:
