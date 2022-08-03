@@ -1,8 +1,8 @@
 import requests
 import datetime as dt
 
-LATITUDE = 19.075983
-LONGITUDE = 72.877655
+LATITUDE = lat
+LONGITUDE = long
 
 parameters = {
     "lat": LATITUDE,
