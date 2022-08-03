@@ -6,7 +6,7 @@ from wtforms.validators import DataRequired, URL
 import csv
 
 app = Flask(__name__, static_url_path='')
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'key'
 Bootstrap(app)
 
 
@@ -25,14 +25,6 @@ class CafeForm(FlaskForm):
     submit = SubmitField('Submit')
 
 
-# Exercise:
-# add: Location URL, open time, closing time, coffee rating, wifi rating, power outlet rating fields
-# make coffee/wifi/power a select element with choice of 0 to 5.
-# e.g. You could use emojis ☕️/💪/✘/🔌
-# make all fields required except submit
-# use a validator to check that the URL field has a URL entered.
-# ---------------------------------------------------------------------------
-
 
 # all Flask routes below
 @app.route("/")
@@ -44,9 +36,7 @@ def home():
 def add_cafe():
     form = CafeForm()
     if form.validate_on_submit():
-        # Exercise:
-        # Make the form write a new row into cafe-data.csv
-        # with   if form.validate_on_submit()
+        
         with open("cafe-data.csv", mode="a") as csv_file:
             csv_file.write(f"\n{form.cafe.data},"
                            f"{form.location.data},"
