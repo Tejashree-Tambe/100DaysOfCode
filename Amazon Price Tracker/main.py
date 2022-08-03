@@ -16,8 +16,8 @@ headers = {
     "Accept-Language": "en-US,en;q=0.9"
 }
 
-MY_EMAIL = "pythondeveloper0401@gmail.com"
-PASSWORD = "Python123"
+MY_EMAIL = "email"
+PASSWORD = "password"
 SUBJECT = "Amazon Price Alert!!"
 
 response = requests.get(AMAZON_URL, headers=headers)
