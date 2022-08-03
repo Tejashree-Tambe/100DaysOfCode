@@ -6,8 +6,8 @@ blog_url = "https://api.npoint.io/ef931ebdc5cf1d250e0f"
 response = requests.get(blog_url)
 all_posts = response.json()
 
-MY_EMAIL = "pythondeveloper0401@gmail.com"
-PASSWORD = "Python123"
+MY_EMAIL = "email"
+PASSWORD = "password"
 SUBJECT = "Blog Contact"
 
 app = Flask(__name__, static_url_path='')
