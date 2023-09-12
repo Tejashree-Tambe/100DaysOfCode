@@ -51,8 +51,8 @@ if percentage_difference > 0:
         message = client.messages \
             .create(
             body=f"TSLA: 🔺{percentage_difference}% {article}",
-            from_='+15207292541',
-            to='+919930049115'
+            from_='+phone',
+            to='+Phone'
         )
 
         print(message.status)
