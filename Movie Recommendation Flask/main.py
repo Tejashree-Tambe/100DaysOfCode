@@ -7,7 +7,7 @@ from wtforms.validators import DataRequired
 import requests
 
 app = Flask(__name__, static_url_path='/static')
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'key'
 Bootstrap(app)
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -42,7 +42,7 @@ class AddForm(FlaskForm):
 
 app.secret_key = "any-string-you-want-just-keep-it-secret"
 
-api_key = "093243b91d7a3d8ad4f2adf7b5a2f06b"
+api_key = "key"
 search_api_url = "https://api.themoviedb.org/3/search/movie"
 find_api_url = "https://api.themoviedb.org/3/movie"
 image_api_url = "https://image.tmdb.org/t/p/w500"
